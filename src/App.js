@@ -15,8 +15,8 @@ class App extends Component {
             <li><Link to="/">public component</Link></li>
             <li><Link to="/secured">secured component</Link></li>
           </ul>
-          <Route exact path="/" component={Welcome} />
-          <Route path="/secured" component={Secured} />
+          <Route exact path="/" component={Secured} />
+          <Route path="/secured" component={Welcome} />
         </div>
       </BrowserRouter>
     );
