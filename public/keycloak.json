@@ -1,6 +1,6 @@
 {
   "realm": "test-microservices-realm",
-  "auth-server-url": "https://sso-anxious-quince.7e14.starter-us-west-2.openshiftapps.com/auth",
+  "auth-server-url": "https://sso-hello-world-project.apps.na311.openshift.opentlc.com/auth",
   "ssl-required": "external",
   "resource": "microservices-app",
   "public-client": true,
